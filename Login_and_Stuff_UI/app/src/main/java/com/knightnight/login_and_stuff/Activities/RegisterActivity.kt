@@ -23,12 +23,14 @@ class RegisterActivity : AppCompatActivity() {
         }
         binding.gotoLogin.setOnClickListener {
             goback()
+            
         }
     }
+
     fun goback(){
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-
+        overridePendingTransition(R.anim.slide_out_left,R.anim.slide_in_left)
     }
     fun addToTable(){
 
