@@ -2028,6 +2028,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id enterNew
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2046,8 +2047,10 @@ id frost
 id ghost_view
 id ghost_view_holder
 id gone
+id gotoCustomer
 id gotoLogin
 id gotoReg
+id gotoSeller
 id graph
 id graph_wrap
 id group_divider
@@ -2184,6 +2187,8 @@ id percent
 id pin
 id position
 id postLayout
+id product_name
+id product_price
 id progress_circular
 id progress_horizontal
 id radio
@@ -2191,6 +2196,7 @@ id ratio
 id rectangles
 id regMail
 id regName
+id regProduct
 id regPwd
 id registerBtn
 id reverseSawtooth
@@ -2286,6 +2292,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2402,6 +2409,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_register
+layout activity_seller_login
+layout activity_seller_products
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2491,6 +2500,7 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string Go_to_seller
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2529,6 +2539,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string enter_the_product
 string error_email_exists
 string error_icon_content_description
 string error_message_age
@@ -2602,11 +2613,15 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string new_entry
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string product_name
+string product_price
+string register
 string search_menu_title
 string status_bar_notification_info_overflow
 string success_message

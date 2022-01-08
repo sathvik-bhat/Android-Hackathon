@@ -4,7 +4,15 @@
         "source": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
+        "merged": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_seller_login.xml",
+        "source": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\src\\main\\res\\layout\\activity_seller_login.xml"
+    },
+    {
         "merged": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_seller_products.xml",
+        "source": "Z:\\Android_Projects\\Login_and_Stuff_UI\\app\\src\\main\\res\\layout\\activity_seller_products.xml"
     }
 ]

@@ -35,6 +35,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button gotoReg;
 
   @NonNull
+  public final Button gotoSeller;
+
+  @NonNull
   public final ImageView imageView2;
 
   @NonNull
@@ -42,12 +45,14 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
       @NonNull EditText editTextTextPassword, @NonNull EditText editTextTextPersonName,
-      @NonNull Button gotoReg, @NonNull ImageView imageView2, @NonNull Button loginBtn) {
+      @NonNull Button gotoReg, @NonNull Button gotoSeller, @NonNull ImageView imageView2,
+      @NonNull Button loginBtn) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.editTextTextPassword = editTextTextPassword;
     this.editTextTextPersonName = editTextTextPersonName;
     this.gotoReg = gotoReg;
+    this.gotoSeller = gotoSeller;
     this.imageView2 = imageView2;
     this.loginBtn = loginBtn;
   }
@@ -103,6 +108,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.gotoSeller;
+      Button gotoSeller = ViewBindings.findChildViewById(rootView, id);
+      if (gotoSeller == null) {
+        break missingId;
+      }
+
       id = R.id.imageView2;
       ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
       if (imageView2 == null) {
@@ -116,7 +127,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, cardView, editTextTextPassword,
-          editTextTextPersonName, gotoReg, imageView2, loginBtn);
+          editTextTextPersonName, gotoReg, gotoSeller, imageView2, loginBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\rprak\.gradle\caches\transforms-3\3d1312f3ccf52e6aad5fb8278336e511\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\rprak\.gradle\caches\transforms-3\c4000b1f58767d7e9b62b0600db1c210\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\rprak\.gradle\caches\transforms-3\38b5338972231d7bbabd3884fc9ea7dc\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -45,25 +45,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rprak\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rprak\.gradle\caches\transforms-3\6b2bca196f44edb806d00295fdcab713\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\rprak\.gradle\caches\transforms-3\43037c0b2dd43be656c119826bff6d23\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rprak\.gradle\caches\transforms-3\29c7b199d4646ee497ba13091e7b830d\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml
 		INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\rprak\.gradle\caches\transforms-3\38b5338972231d7bbabd3884fc9ea7dc\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\rprak\.gradle\caches\transforms-3\38b5338972231d7bbabd3884fc9ea7dc\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\rprak\.gradle\caches\transforms-3\45019ef3417b6728bfcdfc768cf637d7\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -92,28 +92,40 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\rprak\.gradle\cach
 		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:11:9-53
-activity#com.knightnight.login_and_stuff.Activities.RegisterActivity
+activity#com.knightnight.login_and_stuff.Activities.SellerProductsActivity
 ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
 		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:13:13-56
-activity#com.knightnight.login_and_stuff.Activities.MainActivity
-ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:15:9-23:20
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:13:13-62
+activity#com.knightnight.login_and_stuff.Activities.SellerLoginActivity
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:16:13-52
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:16:13-59
+activity#com.knightnight.login_and_stuff.Activities.RegisterActivity
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:19:13-56
+activity#com.knightnight.login_and_stuff.Activities.MainActivity
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:22:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from Z:\Android_Projects\Login_and_Stuff_UI\app\src\main\AndroidManifest.xml

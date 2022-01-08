@@ -1,6 +1,10 @@
-com/knightnight/login_and_stuff/BuildConfig.java
- com.knightnight.login_and_stuff.BuildConfig
 com/knightnight/login_and_stuff/databinding/ActivityMainBinding.java
  com.knightnight.login_and_stuff.databinding.ActivityMainBinding
+com/knightnight/login_and_stuff/databinding/ActivitySellerLoginBinding.java
+ com.knightnight.login_and_stuff.databinding.ActivitySellerLoginBinding
 com/knightnight/login_and_stuff/databinding/ActivityRegisterBinding.java
  com.knightnight.login_and_stuff.databinding.ActivityRegisterBinding
+com/knightnight/login_and_stuff/BuildConfig.java
+ com.knightnight.login_and_stuff.BuildConfig
+com/knightnight/login_and_stuff/databinding/ActivitySellerProductsBinding.java
+ com.knightnight.login_and_stuff.databinding.ActivitySellerProductsBinding

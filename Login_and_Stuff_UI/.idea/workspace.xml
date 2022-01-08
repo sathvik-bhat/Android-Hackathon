@@ -30,6 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="23KDSqlOwnqOB2ZB05lw1YbAPJv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +57,10 @@
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.knightnight.login_and_stuff.Activities" />
+    </key>
+    <key name="android.template.-777958931">
+      <recent name="com.knightnight.login_and_stuff.Activities" />
+      <recent name="com.knightnight.login_and_stuff" />
     </key>
   </component>
   <component name="RunManager">

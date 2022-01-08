@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#35b5ad</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="editText_bg">#E8EBEC</color>
+
+    <!--   mere banae hua theme   !-->
+    <color name="new_attempt">#131514</color>
+    <color name="edit_texts">#2bd9a2</color>
+    <color name="custom_forebg">#645c64</color>
+    <color name="buttons"> #f2f5f5</color>
+    <color name="custom_bg">#2c2b3f</color>
+</resources>

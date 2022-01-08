@@ -19,6 +19,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Login_and_Stuff" >
         <activity
+            android:name="com.knightnight.login_and_stuff.Activities.SellerProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.knightnight.login_and_stuff.Activities.SellerLoginActivity"
+            android:exported="false" />
+        <activity
             android:name="com.knightnight.login_and_stuff.Activities.RegisterActivity"
             android:exported="false" />
         <activity
