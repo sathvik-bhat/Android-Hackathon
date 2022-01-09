@@ -26,6 +26,7 @@
         android:layout_height="match_parent"
         android:text="Enter"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="#E91E63"
         tools:layout_editor_absoluteY="0dp" />
 
 
