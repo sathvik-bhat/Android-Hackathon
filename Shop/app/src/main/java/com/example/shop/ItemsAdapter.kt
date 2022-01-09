@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 class ItemsAdapter(private val items: MutableList<Item>): RecyclerView.Adapter<ItemsAdapter.ItemsViewHolder>() {
     class ItemsViewHolder(ItemView: View): RecyclerView.ViewHolder(ItemView)
 
+    var cart: MutableList<Item> = mutableListOf()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemsViewHolder {
         return ItemsAdapter.ItemsViewHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.radio_item, parent, false)
@@ -22,9 +24,12 @@ class ItemsAdapter(private val items: MutableList<Item>): RecyclerView.Adapter<I
         holder.itemView.apply {
             var item: TextView? = findViewById(R.id.tvDisplayItem)
             item?.text=currItem.name
+            var cost: TextView? = findViewById(R.id.tvShopItemCost)
+            cost?.text= "" + currItem.cost
             var add: Button? = findViewById(R.id.btAdd)
             add?.setOnClickListener(){
-                Log.d("tag","abc")
+                cart.add(currItem)
+                Log.d("tag","" + cart.size)
             }
         }
     }

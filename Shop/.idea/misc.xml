@@ -5,10 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23645833333333333" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/activity_cart.xml" value="0.3066123188405797" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/cart.xml" value="0.3125" />
+        <entry key="app/src/main/res/layout/cart_layout.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/fragment_shop_b.xml" value="0.21614583333333334" />
         <entry key="app/src/main/res/layout/item.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/radio_cart_item.xml" value="0.3066123188405797" />
         <entry key="app/src/main/res/layout/radio_item.xml" value="0.3125" />
         <entry key="app/src/main/res/layout/shoplayout.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/layout/shops.xml" value="0.3125" />

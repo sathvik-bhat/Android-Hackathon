@@ -7,33 +7,32 @@
     android:paddingStart="10dp">
 
     <TextView
-        android:id="@+id/tvDisplayItem"
+        android:id="@+id/tvCartItem"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="Example"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvShopItemCost"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/tvCartItemCost"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tvShopItemCost"
+        android:id="@+id/tvCartItemCost"
         android:layout_width="80dp"
         android:layout_height="match_parent"
         android:textSize="25sp"
         android:text="Cost"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btAdd"
+        app:layout_constraintEnd_toStartOf="@+id/btRemove"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btAdd"
+        android:id="@+id/btRemove"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="Add"
+        android:text="Remove"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

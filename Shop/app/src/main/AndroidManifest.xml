@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shop">
         <activity
-            android:name=".ShopA"
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShopActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

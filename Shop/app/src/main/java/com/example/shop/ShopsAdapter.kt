@@ -34,7 +34,7 @@ class ShopsAdapter(private val shops: MutableList<Shop>) : RecyclerView.Adapter<
             var enter: Button = findViewById(R.id.btEnter)
             enter.setOnClickListener(){
                 Log.d("demo", currShop.name)
-                val intent = Intent(context, ShopA::class.java)
+                val intent = Intent(context, ShopActivity::class.java)
                 intent.putExtra("name", currShop.name)
 //                intent.putExtra("name", shops)
                 startActivity(context, intent, Bundle())
