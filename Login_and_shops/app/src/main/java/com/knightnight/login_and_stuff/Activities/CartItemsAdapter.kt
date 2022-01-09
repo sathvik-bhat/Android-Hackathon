@@ -9,10 +9,22 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.knightnight.login_and_stuff.R
 
-class CartItemsAdapter(private val names: ArrayList<String>?, private val costs: ArrayList<Int>?):
+class CartItemsAdapter(private var names: ArrayList<String>?, private var costs: ArrayList<Int>?):
 RecyclerView.Adapter<CartItemsAdapter.CartItemsViewHolder>()
 {
     class CartItemsViewHolder(Itemview: View) : RecyclerView.ViewHolder(Itemview)
+
+    fun removeItem(position: Int){
+        names?.removeAt(position)
+        costs?.removeAt(position)
+        notifyItemRemoved(position)
+    }
+
+    fun clearCart(){
+        names= arrayListOf()
+        costs= arrayListOf()
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CartItemsViewHolder {
         return CartItemsAdapter.CartItemsViewHolder(
@@ -31,7 +43,8 @@ RecyclerView.Adapter<CartItemsAdapter.CartItemsViewHolder>()
             var remove: Button? = findViewById(R.id.btRemove)
             remove?.setOnClickListener(){
 //                cart.add(currItem)
-                Log.d("tag","" + names.size)
+                Log.d("tag","" + names!!.size)
+                removeItem(position)
             }
         }
     }

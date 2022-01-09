@@ -12,7 +12,8 @@ import com.knightnight.login_and_stuff.R
 class ItemsAdapter(private val items: MutableList<Item>): RecyclerView.Adapter<ItemsAdapter.ItemsViewHolder>() {
     class ItemsViewHolder(ItemView: View): RecyclerView.ViewHolder(ItemView)
 
-    var cart: MutableList<Item> = mutableListOf()
+    var cartNames: ArrayList<String>? = arrayListOf<String>()
+    var cartCosts: ArrayList<Int>? = arrayListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemsViewHolder {
         return ItemsAdapter.ItemsViewHolder(
@@ -29,8 +30,9 @@ class ItemsAdapter(private val items: MutableList<Item>): RecyclerView.Adapter<I
             cost?.text= "" + currItem.cost
             var add: Button? = findViewById(R.id.btAdd)
             add?.setOnClickListener(){
-                cart.add(currItem)
-                Log.d("tag","" + cart.size)
+                cartNames!!.add(currItem.name)
+                cartCosts!!.add(currItem.cost)
+                Log.d("tag","" + cartNames!!.size)
             }
         }
     }
