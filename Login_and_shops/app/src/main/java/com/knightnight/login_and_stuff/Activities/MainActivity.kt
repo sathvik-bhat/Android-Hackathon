@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.knightnight.login_and_stuff.Activities.ShopsActivity
 import com.knightnight.login_and_stuff.R
 import com.knightnight.login_and_stuff.SQL.DatabaseHelper
 import com.knightnight.login_and_stuff.databinding.ActivityMainBinding
@@ -42,8 +43,11 @@ class MainActivity : AppCompatActivity() {
             val ans : Boolean = database.CheckUserfull(email,pwd)
             if(!ans)
                 Toast.makeText(this,"Incorrect Credentials! Please try again", Toast.LENGTH_LONG).show()
-            else
-                Toast.makeText(this,"Welcome Customer!!",Toast.LENGTH_LONG).show()
+            else {
+                Toast.makeText(this, "Welcome Customer!!", Toast.LENGTH_LONG).show()
+                val intent = Intent(this, ShopsActivity::class.java)
+                startActivity(intent, Bundle())
+            }
             database.close()
         }
 
